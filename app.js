@@ -24,3 +24,16 @@ document.getElementById('keypad').addEventListener('click', function(event){
         calcDisplay.value = newNumber;
     }
 })
+
+function pinVerify(){
+    const generatedPin = document.getElementById('generated-pin').value;
+    const typedValue = document.getElementById('typed-key').value;
+    if(generatedPin === typedValue){
+        document.getElementById('pin-match').style.display = "block";
+    }else{
+        document.getElementById('pin-dismatch').style.display = "block";
+    }
+}
+document.getElementById('submit').addEventListener('click',function(){
+    pinVerify();
+})

@@ -10,10 +10,12 @@ body {
 }
 
 .half-width {
-    height: 570px;
+    height: 470px;
     background: #3a668a;
     padding: 30px;
     text-align: center;
+    border: 3px solid wheat;
+    border-radius: 10px;
 }
 .generate-btn{
     margin-top: 140px;
@@ -66,7 +68,7 @@ width: 100%;
 width: 20%;
 background: #425062;
 color: #fff;
-padding: 20px 0;
+padding: 8px 5px;
 margin: 5px;
 display: inline-block;
 font-size: 25px;
@@ -95,6 +97,7 @@ color: #E0B612;
     margin-top: 20px;
     border-radius: 15px;
     padding: 5px 20px;
+    display: none;
 }
 .notify-section{
     width: 35%;
@@ -102,5 +105,5 @@ color: #E0B612;
 }
 .action-left {
     color: orange;
-    margin-top: 10px;
+    margin-top: 5px;
 }
